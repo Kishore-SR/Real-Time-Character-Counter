@@ -39,9 +39,9 @@ function updateCounter(){
 
     // If character count exceeds 100 chars
     if(charCount > 100) {
-        textArea.style.backgroundColor = "#f8d7da"; // Textare to 'Red colour
+        textArea.style.backgroundColor = "#f8d7da"; // Change Textarea to 'Red' colour
     } else {
-        textArea.style.backgroundColor = "#fcfcfc"; // Default color
+        textArea.style.backgroundColor = "#fcfcfc"; // Default colour
     }
 }
 

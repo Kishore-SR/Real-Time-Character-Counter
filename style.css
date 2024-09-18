@@ -73,7 +73,9 @@ body{
     outline: none;
     background-color: #f3f3f3; 
 }
-
+#text-container {
+    transition: background-color 0.3s ease; 
+}
 .line{
     width: 100%;
     height: 1px;
@@ -114,8 +116,35 @@ body{
     cursor: not-allowed;
     background: #93d1f5;
 }
-
 /* Container footer design ends */
-#text-container {
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+/* Real Time Character Counter Section - DESIGN */
+.real-time {
+    background-color: #e7ffba; 
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+.row-wise{
+    display: flex;
+    justify-content: space-between;
+}
+.real-time h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+.real-time .total-char,
+.real-time .remaining {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #666;
+}
+#total{
+    color: green;
+}
+#remain{
+    color: red;
 }
