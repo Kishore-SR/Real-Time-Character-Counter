@@ -142,9 +142,29 @@ body{
     font-size: 16px;
     color: #666;
 }
+.row-wise div{
+    font-weight: 600;
+}
 #total{
     color: green;
 }
 #remain{
     color: red;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .container{
+        width: 90%;
+      }
+      .real-time{
+        padding: 10px;
+      }
+      .real-time h1 {
+        font-size: 20px;
+      }
 }
