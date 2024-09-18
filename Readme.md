@@ -1,4 +1,4 @@
-## Real-Time Character Counter
+## Character Counter 💬
 
 A simple project that counts characters in real-time, with a UI inspired by Twitter’s tweet input feature.
 
