@@ -41,7 +41,7 @@ function updateCounter(){
     if(charCount > 100) {
         textArea.style.backgroundColor = "#f8d7da"; // Change Textarea to 'Red' colour
     } else {
-        textArea.style.backgroundColor = "#fcfcfc"; // Default colour
+        textArea.style.backgroundColor = "#f3f3f3"; // Default colour
     }
 }
 
