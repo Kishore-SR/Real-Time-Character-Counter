@@ -9,6 +9,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
   background: #1da1f2;
 }
@@ -22,6 +23,7 @@ body{
     box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
   }
 
+  /* Container header design starts */
   a{
     text-decoration: none;
     cursor: pointer;
@@ -79,9 +81,38 @@ body{
     margin: auto;
     margin: 4px 0px;
 }
+/* Container header design ends */
 
+
+/* Container footer design starts */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 .time-date {
     font-size: 14px;
     color: #666;
     margin-top: 10px;
 }
+.tweet-btn{
+    background: #1da1f2;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.footer a{
+    color: white;
+}
+
+/* Classes applied using JS based on user interactions */
+.js-active{
+    cursor: pointer;
+    background-color: #1da1f2;
+}
+.js-disable{
+    cursor: not-allowed;
+    background: #93d1f5;
+}
+
+/* Container footer design ends */
